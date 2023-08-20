@@ -25,5 +25,5 @@ The data pack will introduce a story of the world given to the player by using t
 ### 7) Medieval, fantasy style
 Contents of the data pack should stick to Minecraft's semi-medieval, fantasy stylistics. No modern-styled features allowed!
 
-### 8) No new dimensions and creatures
-The data pack would not add any new dimensions and creatures. It would only extend those already existing in vanilla.
+### 8) No new dimensions, creatures and biomes
+The data pack would not add any new dimensions, bioms and creatures. It would only extend those already existing in vanilla.
