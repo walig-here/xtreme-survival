@@ -1,6 +1,9 @@
 # X-TREME SURVIVAL: Minecraft datapack
 X-Treme Survival is my hobby project where I aim to create a Minecraft data pack which aim is to enhance the game's vanilla, survival experience. The whole idea was inspired by a great Minecraft modification 'Better than Wolves' which was created and maintained by FolwerChild until the year 2021.
 
+## RESOURCES
+Resources for X-Treme Survival datapack are stored in a seperate repository. Link: https://github.com/walig-here/xsvl-resources
+
 ## DESIGN PRINCIPLES
 While working on this project I'm following several design principles related to new features and overall gameplay. Their primary purpose is to maintain cohesion between features that would be implemented over time as well as give players enjoying and satisfying experience that's based on a set of fair, understandable rules.
 
