@@ -1,0 +1,1 @@
+give @p clay_ball{display:{Name:'{"text":"Pile of Mud","italic":false}'},CustomModelData:7810003,pile_of_mud:1b} 1
