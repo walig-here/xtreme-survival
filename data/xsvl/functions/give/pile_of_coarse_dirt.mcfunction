@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Pile of Coarse Dirt","italic":false}'},CustomModelData:7810001,pile_of_coarse_dirt:1b} 1
