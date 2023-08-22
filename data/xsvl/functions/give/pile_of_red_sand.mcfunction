@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Pile of Red Sand","italic":false}'},CustomModelData:7810008,pile_of_red_sand:1b} 1

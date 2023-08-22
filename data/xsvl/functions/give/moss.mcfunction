@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Moss","italic":false}'},CustomModelData:7810010,moss:1b} 1
