@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Diorite Pebble","italic":false}'},CustomModelData:7810016,diorite_pebble:1b} 1
