@@ -36,8 +36,8 @@
                   "predicate": {
                     "items": [
                       "minecraft:iron_pickaxe",
-                      "minecraft:diamond_pickaxe",
                       "minecraft:golden_pickaxe",
+                      "minecraft:diamond_pickaxe",
                       "minecraft:netherite_pickaxe"
                     ]
                   }
@@ -49,12 +49,12 @@
               "name": "minecraft:glowstone_dust",
               "functions": [
                 {
-                  "function": "minecraft:set_count",
-                  "count": 8
-                },
-                {
                   "function": "minecraft:set_nbt",
                   "tag": "{display:{Name:'{\"text\":\"Netherrack Pebble\",\"italic\":false}'},CustomModelData:7810025,netherrack_pebble:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 7
                 }
               ],
               "conditions": [
@@ -65,7 +65,7 @@
                       "condition": "minecraft:match_tool",
                       "predicate": {
                         "items": [
-                          "minecraft:stone_shovel"
+                          "minecraft:stone_pickaxe"
                         ]
                       }
                     },
@@ -79,7 +79,43 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Netherrack Dust\",\"italic\":false}'},CustomModelData:7810032,netherrack_dust:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:iron_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:netherite_pickaxe"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
   ],
-  "random_sequence": "minecraft:blocks/grass_block"
+  "random_sequence": "minecraft:blocks/stone"
 }

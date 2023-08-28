@@ -54,7 +54,7 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": 8
+                  "count": 7
                 }
               ],
               "conditions": [
@@ -77,6 +77,42 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Netherrack Dust\",\"italic\":false}'},CustomModelData:7810032,netherrack_dust:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:iron_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:netherite_pickaxe"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
         }
       ]
     }

@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Netherrack Dust","italic":false}'},CustomModelData:7810032,netherrack_dust:1b} 1
