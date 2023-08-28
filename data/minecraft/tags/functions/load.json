@@ -1,5 +1,6 @@
 {
     "values": [
-        "xsvl:utils/load"
+        "xsvl:utils/load",
+        "bone_cb:load"
     ]
 }
