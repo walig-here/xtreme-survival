@@ -7,4 +7,7 @@ execute at @s if score @s heldItem matches 7810015 run fill ~-5 ~-5 ~-5 ~5 ~5 ~5
 # Cobbled andesite
 execute at @s if score @s heldItem matches 7810018 run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 command_block{auto:1b,Command:"setblock ~ ~ ~ andesite_slab[type=double,waterlogged=true]"} replace barrier
 
+# Cobbled calcite
+execute at @s if score @s heldItem matches 7810019 run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 command_block{auto:1b,Command:"setblock ~ ~ ~ polished_diorite_slab[type=double,waterlogged=true]"} replace barrier
+
 advancement revoke @s only bone_cb:place_block/trigger

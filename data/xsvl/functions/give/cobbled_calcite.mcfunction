@@ -1,0 +1,1 @@
+give @p barrier{display:{Name:'{"text":"Cobbled Calcite","color":"white","italic":false}'},CustomModelData:7810019,cobbled_calcite:1b} 1
