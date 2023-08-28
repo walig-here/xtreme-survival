@@ -1,0 +1,1 @@
+give @p barrier{display:{Name:'{"text":"Cobbled Dripstone","color":"white","italic":false}'},CustomModelData:7810023,cobbled_dripstone:1b} 1
