@@ -1,0 +1,1 @@
+give @p barrier{display:{Name:'{"text":"Cobbled Basalt","italic":false,"color":"white"}'},CustomModelData:7810031,cobbled_basalt:1b} 1

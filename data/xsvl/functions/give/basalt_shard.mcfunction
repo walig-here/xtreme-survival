@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Basalt Shard","italic":false}'},CustomModelData:7810030,basalt_shard:1b} 1
