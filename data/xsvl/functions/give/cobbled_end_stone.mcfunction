@@ -1,0 +1,1 @@
+give @p barrier{display:{Name:'{"text":"Cobbled End Stone","italic":false,"color":"white"}'},CustomModelData:7810035,cobbled_end_stone:1b} 1

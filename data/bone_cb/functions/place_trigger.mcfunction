@@ -19,4 +19,7 @@ execute at @s if score @s heldItem matches 7810023 run fill ~-5 ~-5 ~-5 ~5 ~5 ~5
 # Cobbled basalt
 execute at @s if score @s heldItem matches 7810031 run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 command_block{auto:1b,Command:"setblock ~ ~ ~ blackstone_slab[type=double,waterlogged=true]"} replace barrier
 
+# Cobbled end stone
+execute at @s if score @s heldItem matches 7810035 run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 command_block{auto:1b,Command:"setblock ~ ~ ~ end_stone_brick_slab[type=double,waterlogged=true]"} replace barrier
+
 advancement revoke @s only bone_cb:place_block/trigger
