@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Warped Hyphae","italic":false}'},CustomModelData:7810047,warped_hyphae:1b} 1
