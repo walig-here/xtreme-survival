@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Mangrove Bark","italic":false}'},CustomModelData:7810044,mangrove_bark:1b} 1

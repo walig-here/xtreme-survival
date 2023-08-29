@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Acacia Bark","italic":false}'},CustomModelData:7810042,acacia_bark:1b} 1

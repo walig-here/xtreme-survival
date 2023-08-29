@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Oak Bark","italic":false}'},CustomModelData:7810038,oak_bark:1b} 1

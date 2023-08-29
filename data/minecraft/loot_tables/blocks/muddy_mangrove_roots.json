@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:muddy_mangrove_roots",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:iron_shovel",
+                      "minecraft:golden_shovel",
+                      "minecraft:diamond_shovel",
+                      "minecraft:netherite_shovel"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Pile of Mud\",\"italic\":false}'},CustomModelData:7810003,pile_of_mud:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minecraft:axes"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/oak_log"
+}
