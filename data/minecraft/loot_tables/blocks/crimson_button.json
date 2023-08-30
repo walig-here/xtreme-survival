@@ -24,6 +24,20 @@
                   }
                 }
               ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Fungus Trama\",\"italic\":false}'},CustomModelData:7810050,fungus_trama:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
             }
           ]
         }
