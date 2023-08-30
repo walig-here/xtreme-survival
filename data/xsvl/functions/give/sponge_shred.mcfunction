@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Sponge Shred","italic":false}'},CustomModelData:7810049,sponge_shred:1b} 1
