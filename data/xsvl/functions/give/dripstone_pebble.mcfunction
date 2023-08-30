@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Dripstone Pebble","italic":false}'},CustomModelData:7810024,dripstone_pebble:1b} 1

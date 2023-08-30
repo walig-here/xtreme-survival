@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Shroomlight Trama","italic":false}'},CustomModelData:7810048,shroomlight_trama:1b} 1

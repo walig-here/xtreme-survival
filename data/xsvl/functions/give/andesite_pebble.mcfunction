@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Andesite Pebble","italic":false}'},CustomModelData:7810017,andesite_pebble:1b} 1

@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Calcite Pebble","italic":false}'},CustomModelData:7810020,calcite_pebble:1b} 1

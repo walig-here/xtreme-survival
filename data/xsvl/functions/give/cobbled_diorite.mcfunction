@@ -1,0 +1,1 @@
+give @p barrier{display:{Name:'{"text":"Cobbled Diorite","color":"white","italic":false}'},CustomModelData:7810015,cobbled_diorite:1b} 1

@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Crimson Hyphae","italic":false}'},CustomModelData:7810046,crimson_hyphae:1b} 1

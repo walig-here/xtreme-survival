@@ -1,0 +1,1 @@
+give @p dried_kelp{display:{Name:'{"text":"Honey","color":"white","italic":false}'},CustomModelData:7810050,honey:1b} 1

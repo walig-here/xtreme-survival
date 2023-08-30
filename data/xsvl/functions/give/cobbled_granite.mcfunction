@@ -1,0 +1,1 @@
+give @p barrier{display:{Name:'{"text":"Cobbled Granite","color":"white","italic":false}'},CustomModelData:7810014,cobbled_granite:1b} 1

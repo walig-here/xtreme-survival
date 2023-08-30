@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"End Stone Dust","italic":false}'},CustomModelData:7810033,end_stone_dust:1b} 1
