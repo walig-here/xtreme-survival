@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Packed Mud Ball","italic":false}'},CustomModelData:7810053,packed_mud_ball:1b} 1

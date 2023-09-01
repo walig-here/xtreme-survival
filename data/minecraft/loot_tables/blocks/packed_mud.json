@@ -10,16 +10,16 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:mud",
+              "name": "minecraft:packed_mud",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
-                      "minecraft:iron_shovel",
-                      "minecraft:diamond_shovel",
-                      "minecraft:golden_shovel",
-                      "minecraft:netherite_shovel"
+                      "minecraft:iron_pickaxe",
+                      "minecraft:diamond_pickaxe",
+                      "minecraft:golden_pickaxe",
+                      "minecraft:netherite_pickaxe"
                     ]
                   }
                 }
@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:clay_ball",
+              "name": "minecraft:glowstone_dust",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -35,35 +35,27 @@
                 },
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Pile of Mud\",\"italic\":false}'},CustomModelData:7810003,pile_of_mud:1b}"
+                  "tag": "{display:{Name:'{\"text\":\"Packed Mud Ball\",\"italic\":false}'},CustomModelData:7810053,packed_mud_ball:1b}"
                 }
               ],
               "conditions": [
                 {
-                  "condition": "minecraft:all_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "items": [
-                          "minecraft:stone_shovel"
-                        ]
-                      }
-                    },
-                    {
-                      "condition": "minecraft:survives_explosion"
-                    }
-                  ]
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:stone_pickaxe"
+                    ]
+                  }
                 }
               ]
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:clay_ball",
+              "name": "minecraft:glowstone_dust",
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Pile of Mud\",\"italic\":false}'},CustomModelData:7810003,pile_of_mud:1b}"
+                  "tag": "{display:{Name:'{\"text\":\"Packed Mud Ball\",\"italic\":false}'},CustomModelData:7810053,packed_mud_ball:1b}"
                 },
                 {
                   "function": "minecraft:set_count",
