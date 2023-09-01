@@ -11,6 +11,21 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:bamboo_mosaic_slab",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:bamboo_mosaic_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -31,7 +46,16 @@
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": 1
+                  "count": 2,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:bamboo_mosaic_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -49,6 +73,20 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"Sawdust\",\"italic\":false}'},CustomModelData:7810037,sawdust:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "minecraft:bamboo_mosaic_slab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ]
             }
           ],
           "conditions": [
