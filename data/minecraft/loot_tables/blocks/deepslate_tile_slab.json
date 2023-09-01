@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:deepslate_tile_slab",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "add": false,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:deepslate_tile_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:diamond_pickaxe",
+                      "minecraft:netherite_pickaxe"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Deepslate Brick\",\"italic\":false}'},CustomModelData:7810052,deepslate_brick:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4,
+                  "add": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:deepslate_tile_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:stone_pickaxe",
+                      "minecraft:iron_pickaxe",
+                      "minecraft:golden_pickaxe"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Deepslate Brick\",\"italic\":false}'},CustomModelData:7810052,deepslate_brick:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "add": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:deepslate_tile_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/stone"
+}
