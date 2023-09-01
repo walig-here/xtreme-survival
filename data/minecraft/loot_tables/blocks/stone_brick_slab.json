@@ -11,6 +11,22 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:stone_brick_slab",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "add": false,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:stone_brick_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -36,6 +52,20 @@
                 {
                   "function": "minecraft:set_count",
                   "count": 4
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4,
+                  "add": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:stone_brick_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
                 }
               ],
               "conditions": [
@@ -60,6 +90,20 @@
                 {
                   "function": "minecraft:set_count",
                   "count": 2
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "add": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:stone_brick_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
                 }
               ]
             }
