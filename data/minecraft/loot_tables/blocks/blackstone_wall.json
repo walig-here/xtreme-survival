@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:blackstone",
+              "name": "minecraft:blackstone_wall",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

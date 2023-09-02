@@ -10,7 +10,22 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:blackstone",
+              "name": "minecraft:polished_blackstone_slab",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:polished_blackstone_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -35,7 +50,21 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": 8
+                  "count": 4
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4,
+                  "add": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:polished_blackstone_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
                 }
               ],
               "conditions": [
@@ -66,14 +95,33 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Pile of Gravel\",\"italic\":false}'},CustomModelData:7810005,pile_of_gravel:1b}"
-            }
-          ],
+          "name": "minecraft:glowstone_dust"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{display:{Name:'{\"text\":\"Pile of Gravel\",\"italic\":false}'},CustomModelData:7810005,pile_of_gravel:1b}"
+        },
+        {
+          "function": "minecraft:set_count",
+          "count": 2,
+          "add": false,
           "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:polished_blackstone_slab",
+              "properties": {
+                "type": "double"
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:all_of",
+          "terms": [
             {
               "condition": "minecraft:inverted",
               "term": {
@@ -87,13 +135,11 @@
                   ]
                 }
               }
+            },
+            {
+              "condition": "minecraft:survives_explosion"
             }
           ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
         }
       ]
     }

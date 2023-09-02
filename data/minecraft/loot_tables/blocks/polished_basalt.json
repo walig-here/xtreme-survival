@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:blackstone",
+              "name": "minecraft:polished_basalt",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -31,7 +31,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Blackstone Pebble\",\"italic\":false}'},CustomModelData:7810029,blackstone_pebble:1b}"
+                  "tag": "{display:{Name:'{\"text\":\"Basalt Shard\",\"italic\":false}'},CustomModelData:7810030,basalt_shard:1b}"
                 },
                 {
                   "function": "minecraft:set_count",

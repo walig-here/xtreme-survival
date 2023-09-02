@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:blackstone",
+              "name": "minecraft:chiseled_polished_blackstone",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

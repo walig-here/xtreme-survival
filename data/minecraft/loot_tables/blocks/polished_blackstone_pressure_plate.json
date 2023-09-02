@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:blackstone",
+              "name": "minecraft:polished_blackstone_pressure_plate",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -35,25 +35,31 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": 8
+                  "count": 2
                 }
               ],
               "conditions": [
                 {
-                  "condition": "minecraft:any_of",
-                  "terms": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "items": [
-                          "minecraft:stone_pickaxe"
-                        ]
-                      }
-                    },
-                    {
-                      "condition": "minecraft:survives_explosion"
-                    }
-                  ]
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:stone_pickaxe"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Blackstone Pebble\",\"italic\":false}'},CustomModelData:7810029,blackstone_pebble:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
                 }
               ]
             }
@@ -72,31 +78,26 @@
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"Pile of Gravel\",\"italic\":false}'},CustomModelData:7810005,pile_of_gravel:1b}"
             }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "items": [
-                    "minecraft:iron_pickaxe",
-                    "minecraft:golden_pickaxe",
-                    "minecraft:diamond_pickaxe",
-                    "minecraft:netherite_pickaxe"
-                  ]
-                }
-              }
-            }
           ]
         }
       ],
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:iron_pickaxe",
+                "minecraft:golden_pickaxe",
+                "minecraft:diamond_pickaxe",
+                "minecraft:netherite_pickaxe"
+              ]
+            }
+          }
         }
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/stone"
+  "random_sequence": "minecraft:blocks/stone_stairs"
 }
