@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Dark Prismarine Brick","italic":false}'},CustomModelData:7810056,dark_prismarine_brick:1b} 1
