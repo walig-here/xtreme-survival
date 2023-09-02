@@ -113,7 +113,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"End Stone Brick\",\"italic\":false}'},CustomModelData:7810059,end_stone_brick:1b}"
+                  "tag": "{display:{Name:'{\"text\":\"End Stone Brick\",\"italic\":false}'},CustomModelData:7810058,end_stone_brick:1b}"
                 },
                 {
                   "function": "minecraft:set_count",
@@ -155,7 +155,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"End Stone Brick\",\"italic\":false}'},CustomModelData:7810059,end_stone_brick:1b}"
+                  "tag": "{display:{Name:'{\"text\":\"End Stone Brick\",\"italic\":false}'},CustomModelData:7810058,end_stone_brick:1b}"
                 },
                 {
                   "function": "minecraft:set_count",

@@ -55,7 +55,7 @@
               "functions": [
                 {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Blackstone Brick\",\"italic\":false}'},CustomModelData:7810058,blackstone_brick:1b}"
+                  "tag": "{display:{Name:'{\"text\":\"Blackstone Brick\",\"italic\":false}'},CustomModelData:7810057,blackstone_brick:1b}"
                 },
                 {
                   "function": "minecraft:set_count",
