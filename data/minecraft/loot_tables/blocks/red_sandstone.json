@@ -15,22 +15,6 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch"
-                      }
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:red_sandstone",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
                     "items": [
                       "minecraft:iron_pickaxe",
                       "minecraft:golden_pickaxe",
@@ -51,7 +35,7 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": 7
+                  "count": 8
                 }
               ],
               "conditions": [

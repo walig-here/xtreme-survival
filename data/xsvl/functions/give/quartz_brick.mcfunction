@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Quartz Brick","italic":false}'},CustomModelData:7810062,quartz_brick:1b} 1

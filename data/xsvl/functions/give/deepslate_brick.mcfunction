@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Deepslate Brick","italic":false}'},CustomModelData:7810052,deepslate_brick:1b} 1

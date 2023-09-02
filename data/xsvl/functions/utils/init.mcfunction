@@ -8,5 +8,11 @@ gamerule doInsomnia false
 # Disabling commands output messages visibility
 gamerule commandBlockOutput false
 
-# Wiadomość dla gracza
-tellraw @a {"text": "X-TREME SURVIVAL v0.1 (Minecraft 1.20.1).", "color": "yellow"}
+# Init branching system
+function xsvl:conditions/init
+
+# Init block-breaking mechanic
+function xsvl:block_breaking/init
+
+# Message to the player
+tellraw @a {"text": "XTREME SURVIVAL v0.1 (Minecraft 1.20.1).", "color": "yellow"}

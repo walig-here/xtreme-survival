@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Red Nether Brick","italic":false}'},CustomModelData:7810057,red_nether_brick:1b} 1

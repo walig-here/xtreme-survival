@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Purpur Brick","italic":false}'},CustomModelData:7810059,purpur_brick:1b} 1

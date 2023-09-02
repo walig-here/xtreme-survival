@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Fungus Trama","italic":false}'},CustomModelData:7810050,fungus_trama:1b} 1

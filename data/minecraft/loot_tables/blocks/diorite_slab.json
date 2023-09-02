@@ -1,36 +1,190 @@
 {
-    "type": "minecraft:block",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:player_head",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{KillThis:1b}"
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{KillThis:1b}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:barrier",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Cobbled Diorite\",\"color\":\"white\",\"italic\":false}'},CustomModelData:7810015,cobbled_diorite:1b}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:stone_pickaxe",
+                      "minecraft:iron_pickaxe",
+                      "minecraft:golden_pickaxe",
+                      "minecraft:diamond_pickaxe",
+                      "minecraft:netherite_pickaxe"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Diorite Pebble\",\"italic\":false}'},CustomModelData:7810016,diorite_pebble:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 8
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:diorite_slab",
+              "properties": {
+                "type": "double",
+                "waterlogged": "true"
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:barrier",
-            "functions": [
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:7810015, display:{Name: '{\"text\" :\"Cobbled Diorite\", \"italic\" :false, \"color\" :\"white\"} '}}"
-              }
-            ],
-            "conditions": [
-              {
+            }
+          ]
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diorite_slab",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "add": false,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:diorite_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:iron_pickaxe",
+                      "minecraft:golden_pickaxe",
+                      "minecraft:diamond_pickaxe",
+                      "minecraft:netherite_pickaxe"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Diorite Pebble\",\"italic\":false}'},CustomModelData:7810016,diorite_pebble:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4,
+                  "add": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:diorite_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:stone_pickaxe"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Diorite Pebble\",\"italic\":false}'},CustomModelData:7810016,diorite_pebble:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2,
+                  "add": true,
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "minecraft:diorite_slab",
+                      "properties": {
+                        "type": "double"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
                 "condition": "minecraft:block_state_property",
                 "block": "minecraft:diorite_slab",
                 "properties": {
@@ -38,47 +192,73 @@
                   "waterlogged": "true"
                 }
               }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diorite_slab",
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": 2,
-                "add": false,
-                "conditions": [
-                  {
-                    "condition": "minecraft:block_state_property",
-                    "block": "minecraft:diorite_slab",
-                    "properties": {
-                      "type": "double"
-                    }
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:explosion_decay"
-              }
-            ],
-            "conditions": [
-              {
-                "condition": "minecraft:inverted",
-                "term": {
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Pile of Gravel\",\"italic\":false}'},CustomModelData:7810005,pile_of_gravel:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": false,
+              "conditions": [
+                {
                   "condition": "minecraft:block_state_property",
                   "block": "minecraft:diorite_slab",
                   "properties": {
                     "type": "double",
-                    "waterlogged": "true"
+                    "waterlogged": "false"
                   }
                 }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:block_state_property",
+                "block": "minecraft:diorite_slab",
+                "properties": {
+                  "waterlogged": "true",
+                  "type": "double"
+                }
               }
-            ]
-          }
-        ]
-      }
-    ],
-    "random_sequence": "minecraft:blocks/granite_slab"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:iron_pickaxe",
+                    "minecraft:golden_pickaxe",
+                    "minecraft:diamond_pickaxe",
+                    "minecraft:netherite_pickaxe"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/granite_slab"
 }
-  

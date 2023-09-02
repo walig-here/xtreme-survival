@@ -57,7 +57,7 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": 7
+                  "count": 8
                 }
               ],
               "conditions": [
