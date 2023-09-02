@@ -10,3 +10,4 @@ execute as @e[type=player, scores={jungle_door_broken=1}] run function xsvl:bloc
 execute as @e[type=player, scores={birch_door_broken=1}] run function xsvl:block_breaking/block_handling/birch_door
 execute as @e[type=player, scores={warped_door_broken=1}] run function xsvl:block_breaking/block_handling/warped_door
 execute as @e[type=player, scores={spruce_door_broken=1}] run function xsvl:block_breaking/block_handling/spruce_door
+execute as @e[type=player, scores={iron_door_broken=1}] run function xsvl:block_breaking/block_handling/iron_door

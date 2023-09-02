@@ -9,3 +9,4 @@ scoreboard objectives add jungle_door_broken minecraft.mined:jungle_door
 scoreboard objectives add birch_door_broken minecraft.mined:birch_door
 scoreboard objectives add warped_door_broken minecraft.mined:warped_door
 scoreboard objectives add spruce_door_broken minecraft.mined:spruce_door
+scoreboard objectives add iron_door_broken minecraft.mined:iron_door
