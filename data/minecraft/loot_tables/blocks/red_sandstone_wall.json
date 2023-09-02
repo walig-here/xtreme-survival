@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:red_sandstone",
+              "name": "minecraft:red_sandstone_wall",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

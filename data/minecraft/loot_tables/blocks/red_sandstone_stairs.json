@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:red_sandstone",
+              "name": "minecraft:red_sandstone_stairs",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -35,7 +35,7 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": 8
+                  "count": 6
                 }
               ],
               "conditions": [
