@@ -11,6 +11,12 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:green_wool",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Green Wool Block\",\"italic\":false}'}}"
+                }
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

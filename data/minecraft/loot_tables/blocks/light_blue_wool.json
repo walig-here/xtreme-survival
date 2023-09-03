@@ -11,6 +11,12 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:light_blue_wool",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Light Blue Wool Block\",\"italic\":false}'}}"
+                }
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

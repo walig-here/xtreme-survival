@@ -11,6 +11,12 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:cyan_wool",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Cyan Wool Block\",\"italic\":false}'}}"
+                }
+              ],
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
