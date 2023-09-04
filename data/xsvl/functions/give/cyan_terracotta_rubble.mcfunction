@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Cyan Terracotta Rubble","italic":false}'},CustomModelData:7810091,cyan_terracotta_rubble:1b} 1
