@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Pile of Pink Concrete","italic":false}'},CustomModelData:7810112,pile_of_pink_concrete:1b} 1
