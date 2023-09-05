@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Yellow Wool","italic":false}'},CustomModelData:7810071,yellow_wool:1b} 1

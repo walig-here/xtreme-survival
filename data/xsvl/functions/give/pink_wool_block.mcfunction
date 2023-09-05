@@ -1,0 +1,1 @@
+give @p pink_wool{display:{Name:'{"text":"Pink Wool Block","italic":false}'}} 1
