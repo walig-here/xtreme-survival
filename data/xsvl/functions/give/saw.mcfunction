@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Saw","italic":false}'},CustomModelData:7810114,saw:1b} 1

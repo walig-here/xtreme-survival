@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Redstone Socket","italic":false}'},CustomModelData:7810113,redstone_socket:1b} 1
