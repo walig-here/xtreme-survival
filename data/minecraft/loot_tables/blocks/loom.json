@@ -10,14 +10,14 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:stonecutter",
+              "name": "minecraft:loom",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
-                      "minecraft:diamond_pickaxe",
-                      "minecraft:netherite_pickaxe"
+                      "minecraft:diamond_axe",
+                      "minecraft:netherite_axe"
                     ]
                   }
                 }
@@ -25,11 +25,11 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:glowstone_dust",
+              "name": "minecraft:stick",
               "functions": [
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Saw\",\"italic\":false}'},CustomModelData:7810114,saw:1b}"
+                  "function": "minecraft:set_count",
+                  "count": 2
                 }
               ]
             }
@@ -46,7 +46,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Redstone Clutch\",\"italic\":false}'},CustomModelData:7810115,redstone_clutch:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Sawdust\",\"italic\":false}'},CustomModelData:7810037,sawdust:1b}"
             }
           ]
         }
@@ -58,8 +58,8 @@
             "condition": "minecraft:match_tool",
             "predicate": {
               "items": [
-                "minecraft:diamond_pickaxe",
-                "minecraft:netherite_pickaxe"
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
               ]
             }
           }
@@ -74,12 +74,8 @@
           "name": "minecraft:glowstone_dust",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 2
-            },
-            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Stone Brick\",\"italic\":false}'},CustomModelData:7810051,stone_brick:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Gear\",\"italic\":false}'},CustomModelData:7810117,gear:1b}"
             }
           ]
         }
@@ -91,8 +87,8 @@
             "condition": "minecraft:match_tool",
             "predicate": {
               "items": [
-                "minecraft:diamond_pickaxe",
-                "minecraft:netherite_pickaxe"
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
               ]
             }
           }
@@ -100,5 +96,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/stonecutter"
+  "random_sequence": "minecraft:blocks/crafting_table"
 }

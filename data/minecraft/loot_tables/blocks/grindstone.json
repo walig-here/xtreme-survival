@@ -10,7 +10,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:stonecutter",
+              "name": "minecraft:grindstone",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -25,11 +25,11 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:glowstone_dust",
+              "name": "minecraft:stick",
               "functions": [
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Saw\",\"italic\":false}'},CustomModelData:7810114,saw:1b}"
+                  "function": "minecraft:set_count",
+                  "count": 2
                 }
               ]
             }
@@ -45,8 +45,12 @@
           "name": "minecraft:glowstone_dust",
           "functions": [
             {
+              "function": "minecraft:set_count",
+              "count": 4
+            },
+            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Redstone Clutch\",\"italic\":false}'},CustomModelData:7810115,redstone_clutch:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Pebble\",\"italic\":false}'},CustomModelData:7810011,pebble:1b}"
             }
           ]
         }
@@ -74,12 +78,8 @@
           "name": "minecraft:glowstone_dust",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 2
-            },
-            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Stone Brick\",\"italic\":false}'},CustomModelData:7810051,stone_brick:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Gear\",\"italic\":false}'},CustomModelData:7810117,gear:1b}"
             }
           ]
         }
@@ -100,5 +100,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/stonecutter"
+  "random_sequence": "minecraft:blocks/crafting_table"
 }
