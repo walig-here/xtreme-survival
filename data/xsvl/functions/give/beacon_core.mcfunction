@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Beacon Core","italic":false}'},CustomModelData:7810118,beacon_core:1b} 1
