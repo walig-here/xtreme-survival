@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Copper Dust","italic":false}'},CustomModelData:7810119,copper_dust:1b} 1

@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sand",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sand",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:iron_shovel",
+                      "minecraft:golden_shovel",
+                      "minecraft:diamond_shovel",
+                      "minecraft:netherite_shovel"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Pile of Sand\",\"italic\":false}'},CustomModelData:7810006,pile_of_sand:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 8
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": [
+                          "minecraft:stone_shovel"
+                        ]
+                      }
+                    },
+                    {
+                      "condition": "minecraft:survives_explosion"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Pile of Sand\",\"italic\":false}'},CustomModelData:7810006,pile_of_sand:1b}"
+                },
+                {
+                  "function": "minecraft:set_count",
+                  "count": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/sand"
+}
