@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Redstone Clutch","italic":false}'},CustomModelData:7810115,redstone_clutch:1b} 1

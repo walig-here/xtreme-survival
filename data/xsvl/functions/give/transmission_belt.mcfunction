@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Transmission Belt","italic":false}'},CustomModelData:7810116,transmission_belt:1b} 1

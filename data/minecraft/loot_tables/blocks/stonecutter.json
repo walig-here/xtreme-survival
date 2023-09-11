@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stonecutter",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:diamond_pickaxe",
+                      "minecraft:netherite_pickaxe"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glowstone_dust",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"Saw\",\"italic\":false}'},CustomModelData:7810114,saw:1b}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Redstone Clutch\",\"italic\":false}'},CustomModelData:7810115,redstone_clutch:1b}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:diamond_pickaxe",
+                "minecraft:netherite_pickaxe"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Stone Brick\",\"italic\":false}'},CustomModelData:7810051,stone_brick:1b}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:diamond_pickaxe",
+                "minecraft:netherite_pickaxe"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/stonecutter"
+}

@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Gear","italic":false}'},CustomModelData:7810117,gear:1b} 1
