@@ -10,12 +10,14 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:stonecutter",
+              "name": "minecraft:powered_rail",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
+                      "minecraft:iron_pickaxe",
+                      "minecraft:golden_pickaxe",
                       "minecraft:diamond_pickaxe",
                       "minecraft:netherite_pickaxe"
                     ]
@@ -25,11 +27,11 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:glowstone_dust",
+              "name": "minecraft:gold_nugget",
               "functions": [
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Saw\",\"italic\":false}'},CustomModelData:7810114,saw:1b}"
+                  "function": "minecraft:set_count",
+                  "count": 3
                 }
               ]
             }
@@ -45,12 +47,8 @@
           "name": "minecraft:glowstone_dust",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 2
-            },
-            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Stone Brick\",\"italic\":false}'},CustomModelData:7810051,stone_brick:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Sawdust\",\"italic\":false}'},CustomModelData:7810037,sawdust:1b}"
             }
           ]
         }
@@ -62,6 +60,33 @@
             "condition": "minecraft:match_tool",
             "predicate": {
               "items": [
+                "minecraft:iron_pickaxe",
+                "minecraft:golden_pickaxe",
+                "minecraft:diamond_pickaxe",
+                "minecraft:netherite_pickaxe"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:iron_pickaxe",
+                "minecraft:golden_pickaxe",
                 "minecraft:diamond_pickaxe",
                 "minecraft:netherite_pickaxe"
               ]
@@ -71,5 +96,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/stonecutter"
+  "random_sequence": "minecraft:blocks/repeater"
 }

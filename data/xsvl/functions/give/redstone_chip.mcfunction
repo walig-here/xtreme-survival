@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Redstone Chip","italic":false}'},CustomModelData:7810121,redstone_chip:1b} 1

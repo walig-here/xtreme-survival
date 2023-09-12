@@ -10,12 +10,14 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:stonecutter",
+              "name": "minecraft:hopper",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
+                      "minecraft:iron_pickaxe",
+                      "minecraft:golden_pickaxe",
                       "minecraft:diamond_pickaxe",
                       "minecraft:netherite_pickaxe"
                     ]
@@ -28,8 +30,12 @@
               "name": "minecraft:glowstone_dust",
               "functions": [
                 {
+                  "function": "minecraft:set_count",
+                  "count": 4
+                },
+                {
                   "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Saw\",\"italic\":false}'},CustomModelData:7810114,saw:1b}"
+                  "tag": "{display:{Name:'{\"text\":\"Copper Nugget\",\"italic\":false}'},CustomModelData:7810063,copper_nugget:1b}"
                 }
               ]
             }
@@ -45,12 +51,8 @@
           "name": "minecraft:glowstone_dust",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 2
-            },
-            {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Stone Brick\",\"italic\":false}'},CustomModelData:7810051,stone_brick:1b}"
+              "tag": "{display:{Name:'{\"text\":\"Pile of Soul Sand\",\"italic\":false}'},CustomModelData:7810026,pile_of_soul_sand:1b}"
             }
           ]
         }
@@ -62,6 +64,8 @@
             "condition": "minecraft:match_tool",
             "predicate": {
               "items": [
+                "minecraft:iron_pickaxe",
+                "minecraft:golden_pickaxe",
                 "minecraft:diamond_pickaxe",
                 "minecraft:netherite_pickaxe"
               ]
@@ -71,5 +75,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/stonecutter"
+  "random_sequence": "minecraft:blocks/repeater"
 }
