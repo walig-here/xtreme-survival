@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Redstone Lense","italic":false}'},CustomModelData:7810122,redstone_lense:1b} 1

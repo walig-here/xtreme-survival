@@ -10,14 +10,16 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:stonecutter",
+              "name": "minecraft:target",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": [
-                      "minecraft:diamond_pickaxe",
-                      "minecraft:netherite_pickaxe"
+                      "minecraft:iron_hoe",
+                      "minecraft:golden_hoe",
+                      "minecraft:diamond_hoe",
+                      "minecraft:netherite_hoe"
                     ]
                   }
                 }
@@ -25,11 +27,11 @@
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:glowstone_dust",
+              "name": "minecraft:wheat",
               "functions": [
                 {
-                  "function": "minecraft:set_nbt",
-                  "tag": "{display:{Name:'{\"text\":\"Saw\",\"italic\":false}'},CustomModelData:7810114,saw:1b}"
+                  "function": "minecraft:set_count",
+                  "count": 8
                 }
               ]
             }
@@ -42,17 +44,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Stone Brick\",\"italic\":false}'},CustomModelData:7810051,stone_brick:1b}"
-            }
-          ]
+          "name": "minecraft:redstone"
         }
       ],
       "conditions": [
@@ -62,8 +54,10 @@
             "condition": "minecraft:match_tool",
             "predicate": {
               "items": [
-                "minecraft:diamond_pickaxe",
-                "minecraft:netherite_pickaxe"
+                "minecraft:iron_hoe",
+                "minecraft:golden_hoe",
+                "minecraft:diamond_hoe",
+                "minecraft:netherite_hoe"
               ]
             }
           }
@@ -71,5 +65,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/stonecutter"
+  "random_sequence": "minecraft:blocks/repeater"
 }
