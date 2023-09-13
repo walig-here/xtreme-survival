@@ -1,0 +1,39 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 4095,
+    "distance": 32,
+    "salt": 424342838,
+    "spread": 3,
+    "preferred_biomes": [
+        "desert",
+        "plains",
+        "meadow",
+        "savanna",
+        "snowy_plains",
+        "taiga"
+    ]
+  },
+  "structures": [
+    {
+      "structure": "minecraft:village_plains",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_desert",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "weight": 1
+    }
+  ]
+}
