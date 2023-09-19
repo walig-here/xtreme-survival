@@ -2,7 +2,7 @@
   "placement": {
     "type": "minecraft:concentric_rings",
     "count": 4095,
-    "distance": 90,
+    "distance": 64,
     "salt": 558097192,
     "spread": 8,
     "exclusion_zone": {
