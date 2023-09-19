@@ -1,0 +1,34 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 4095,
+    "distance": 64,
+    "salt": 558097192,
+    "spread": 8,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    },
+    "frequency_reduction_method": "legacy_type_1",
+    "preferred_biomes": [
+        "desert",
+        "plains",
+        "meadow",
+        "grove",
+        "snowy_slopes",
+        "jagged_peaks",
+        "frozen_peaks",
+        "stony_peaks",
+        "savanna",
+        "snowy_plains",
+        "taiga",
+        "cherry_grove"
+    ]
+  },
+  "structures": [
+    {
+      "structure": "minecraft:pillager_outpost",
+      "weight": 1
+    }
+  ]
+}
