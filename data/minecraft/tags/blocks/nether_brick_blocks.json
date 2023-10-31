@@ -1,0 +1,13 @@
+{
+    "values": [
+        "nether_bricks",
+        "cracked_nether_bricks",
+        "nether_brick_slab",
+        "nether_brick_stairs",
+        "chiseled_nether_bricks",
+
+        "red_nether_bricks",
+        "red_nether_brick_slab",
+        "red_nether_brick_stairs"
+    ]
+}

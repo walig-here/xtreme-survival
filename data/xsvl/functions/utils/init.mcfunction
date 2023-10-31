@@ -18,4 +18,4 @@ function xsvl:block_breaking/init
 function xsvl:respawning/init
 
 # Message to the player
-tellraw @a {"text": "XTREME SURVIVAL v0.1", "color": "white"}
+tellraw @a {"text": "Welcome to XTREME SURVIVAL v0.1", "color": "white"}

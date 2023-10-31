@@ -1,5 +1,5 @@
 # Checking if player has discovered nether
-execute as @a[scores={nether_discovered=0}] run function xsvl:conditions/is_player_in_the_nether
+execute as @a[tag=!nether_discovered,nbt={Dimension:"minecraft:the_nether"}] run tag @s add nether_discovered
 
 # Checking if player has obtained elytra
-execute as @a[scores={obtained_elytra=0}] run function xsvl:conditions/has_elytra_in_inventory
+execute as @a[tag=!obtained_elytra,nbt={Inventory:[{id:"minecraft:elytra"}]}] run tag @s add obtained_elytra

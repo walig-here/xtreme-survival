@@ -1,0 +1,38 @@
+{
+    "values": [
+      "#wool",
+      "#concrete_powder",
+      "#beds",
+
+      "farmland",
+      "#sand",
+      "mud",
+      "snow_block",
+      "magma_block",
+      "pointed_dripstone",
+      "#amethyst_shards",
+      "#leaves",
+      "#mushroom_blocks",
+      "azalea",
+      "flowering_azalea",
+      "cactus",
+      "big_dripleaf",
+      "lily_pad",
+      "dried_kelp_block",
+      "sponge",
+      "wet_sponge",
+      "melon",
+      "pumpkin",
+      "carved_pumpkin",
+      "jack_o_lantern",
+      "hay_block",
+      "bee_nest",
+      "ochre_froglight",
+      "verdant_froglight",
+      "pearlescent_froglight",
+      "sculk",
+      "sculk_catalyst",
+      "sculk_shrieker",
+      "sculk_sensor"
+    ]
+  }

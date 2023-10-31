@@ -1,0 +1,29 @@
+{
+    "values": [
+        "sandstone",
+        "sandstone_slab",
+        "sandstone_stairs",
+
+        "chiseled_sandstone",
+
+        "smooth_sandstone",
+        "smooth_sandstone_slab",
+        "smooth_sandstone_stairs",
+
+        "cut_sandstone",
+        "cut_sandstone_slab",
+
+        "red_sandstone",
+        "red_sandstone_slab",
+        "red_sandstone_stairs",
+        
+        "chiseled_red_sandstone",
+
+        "smooth_red_sandstone",
+        "smooth_red_sandstone_slab",
+        "smooth_red_sandstone_stairs",
+
+        "cut_red_sandstone",
+        "cut_red_sandstone_slab"
+    ]
+}

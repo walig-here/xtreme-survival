@@ -1,0 +1,39 @@
+{
+    "values": [
+      "#cobblestone_blocks",
+      "#stone_brick_blocks",
+      "#brick_blocks",
+      "#packed_mud_blocks",
+      "#purpur_blocks",
+
+      "#terracotta",
+      "#concrete_blocks",
+      "#glazed_terracotta",
+
+      "gravel",
+      "dirt_path",
+      "#sandstone_blocks",
+      "#stone_blocks",
+      "#deepslate_blocks",
+      "#granite_blocks",
+      "#diorite_blocks",
+      "#andesite_blocks",
+      "#calcite_blocks",
+      "#tuff_blocks",
+      "#dripstone_blocks",
+      "#prismarine_blocks",
+      "#blackstone_blocks",
+      "#basalt_blocks",
+      "#end_stone_blocks",
+      "#coal_ores",
+      "#iron_ores",
+      "#copper_ores",
+      "#gold_ores",
+      "#redstone_ores",
+      "#emerald_ores",
+      "#lapis_ores",
+      "#diamond_ores",
+
+      "suspicious_gravel"
+    ]
+  }

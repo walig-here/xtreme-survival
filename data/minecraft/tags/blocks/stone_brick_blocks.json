@@ -1,0 +1,13 @@
+{
+    "values": [
+        "stone_bricks",
+        "stone_brick_slab",
+        "stone_brick_stairs",
+        "chiseled_stone_bricks",
+        "cracked_stone_bricks",
+
+        "mossy_stone_bricks",
+        "mossy_stone_brick_slab",
+        "mossy_stone_brick_stairs"
+    ]
+}
