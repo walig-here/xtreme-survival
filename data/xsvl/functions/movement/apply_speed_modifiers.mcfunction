@@ -17,5 +17,5 @@ execute as @s[tag=slowed_down] run return 0
 
 # Movement boost
 execute at @s if block ~ ~-1 ~ #speeding_blocks run tag @s add speed_up
-attribute @s[tag=speed_up] generic.movement_speed modifier add 77b9ef61-282b-486b-a76d-40485e7f2dbd "speed_up" 0.2 multiply
+attribute @s[tag=speed_up] generic.movement_speed modifier add 77b9ef61-282b-486b-a76d-40485e7f2dbd "speed_up" 0.15 multiply
 execute as @s[tag=speed_up] run return 0
