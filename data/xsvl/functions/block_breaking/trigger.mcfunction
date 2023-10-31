@@ -10,6 +10,7 @@ execute as @s[scores={jungle_door_broken=1}] run function xsvl:block_breaking/bl
 execute as @s[scores={birch_door_broken=1}] run function xsvl:block_breaking/block_handling/birch_door
 execute as @s[scores={warped_door_broken=1}] run function xsvl:block_breaking/block_handling/warped_door
 execute as @s[scores={spruce_door_broken=1}] run function xsvl:block_breaking/block_handling/spruce_door
+
 execute as @s[scores={iron_door_broken=1}] run function xsvl:block_breaking/block_handling/iron_door
 
 # Beds

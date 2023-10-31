@@ -1,1 +1,0 @@
-execute store success score @s obtained_elytra run data get entity @s[type=player,nbt={Inventory:[{id:"minecraft:elytra"}]}] Health
