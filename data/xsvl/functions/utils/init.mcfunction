@@ -25,5 +25,8 @@ function xsvl:respawning/init
 # Init movementr mechanic
 function xsvl:movement/init
 
+# Init player modifiers mechanic
+function xsvl:player_modifiers/init
+
 # Message to the player
 tellraw @a {"text": "Welcome to XTREME SURVIVAL v0.1", "color": "white"}
