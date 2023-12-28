@@ -1,0 +1,1 @@
+give @p chicken{display:{Name:'{"text":"Bat Wing","italic":false}'},CustomModelData:7810124,bat_wing:1b} 1
