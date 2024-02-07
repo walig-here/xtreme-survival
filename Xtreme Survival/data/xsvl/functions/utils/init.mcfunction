@@ -31,5 +31,8 @@ function xsvl:player_modifiers/init
 # Init hunger mechanic
 function xsvl:hunger_mechanic/init
 
+# Init mob spawning mechanic
+function xsvl:mob_spawning/init
+
 # Message to the player
-tellraw @a {"text": "Welcome to XTREME SURVIVAL v0.1", "color": "white"}
+tellraw @a {"text": "XTREME SURVIVAL v0.1", "color": "white"}
