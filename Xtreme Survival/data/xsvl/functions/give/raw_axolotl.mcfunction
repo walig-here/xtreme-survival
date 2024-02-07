@@ -1,0 +1,1 @@
+give @p chicken{display:{Name:'{"text":"Raw Axolotl","italic":false}'},CustomModelData:7810123,raw_axolotl:1b} 1
