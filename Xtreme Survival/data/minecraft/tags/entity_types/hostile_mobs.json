@@ -1,0 +1,27 @@
+{
+    "values": [
+      "blaze",
+      "cave_spider",
+      "creeper",
+      "drowned",
+      "enderman",
+      "hoglin",
+      "husk",
+      "magma_cube",
+      "piglin",
+      "piglin_brute",
+      "pillager",
+      "silverfish",
+      "skeleton",
+      "slime",
+      "spider",
+      "stray",
+      "vindicator",
+      "witch",
+      "wither_skeleton",
+      "zoglin",
+      "zombie",
+      "zombie_villager",
+      "zombified_piglin"
+    ]
+  }

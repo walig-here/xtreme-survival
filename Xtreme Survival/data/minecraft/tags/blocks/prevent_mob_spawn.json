@@ -1,0 +1,30 @@
+{
+    "values": [
+        "#planks",
+        "#wooden_stairs",
+        "#wooden_slabs",
+        "#wooden_trapdoors",
+        "#wool_carpets",
+        "#logs",
+        "bookshelf",
+        "crafting_table",
+        "composter",
+        "cartography_table",
+        "fletching_table",
+        "note_block",
+        "jukebox",
+        "campfire",
+        "soul_campfire",
+        "ladder",
+        "scaffolding",
+        "beehive",
+        "chiseled_bookshelf",
+        "lectern",
+        "chest",
+        "barrel",
+        "#beds",
+        "mangrove_roots",
+        "muddy_mangrove_roots",
+        "#bamboo_blocks"
+    ]
+}
