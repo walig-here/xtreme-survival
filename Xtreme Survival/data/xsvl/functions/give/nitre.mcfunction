@@ -1,0 +1,1 @@
+give @p glowstone_dust{display:{Name:'{"text":"Nitre","italic":false}'},CustomModelData:7810126,nitre:1b} 1
