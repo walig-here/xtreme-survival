@@ -13,6 +13,8 @@ gamerule commandBlockOutput false
 # Giving debug view permission to players
 tag walig_here add debug_mode
 
+difficulty hard
+
 # Init condition mechanic
 function xsvl:conditions/init
 
@@ -33,6 +35,9 @@ function xsvl:hunger_mechanic/init
 
 # Init mob spawning mechanic
 function xsvl:mob_spawning/init
+
+# Start animals behavior ticks
+function xsvl:animals_behavior/schedule_tick
 
 # Message to the player
 tellraw @a {"text": "XTREME SURVIVAL v0.1", "color": "white"}

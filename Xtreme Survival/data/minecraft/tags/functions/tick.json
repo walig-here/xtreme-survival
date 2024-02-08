@@ -1,6 +1,5 @@
 {
     "values": [
-        "xsvl:utils/tick",
-        "bone_cb:main"
+        "xsvl:utils/tick"
     ]
 }
