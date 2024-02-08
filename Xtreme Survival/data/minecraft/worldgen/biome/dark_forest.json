@@ -6,9 +6,10 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.9,
+  "downfall": 0.8,
   "effects": {
     "fog_color": 12638463,
+    "grass_color_modifier": "dark_forest",
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -19,9 +20,9 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.jungle"
+      "sound": "minecraft:music.overworld.forest"
     },
-    "sky_color": 7842047,
+    "sky_color": 7972607,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
@@ -78,14 +79,12 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:bamboo_light",
-      "minecraft:trees_jungle",
-      "minecraft:flower_warm",
-      "minecraft:patch_grass_jungle",
+      "minecraft:dark_forest_vegetation",
+      "minecraft:forest_flowers",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:vines"
+      "minecraft:red_mushroom_normal"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -105,6 +104,12 @@
     "axolotls": [],
     "creature": [
       {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
         "type": "minecraft:pig",
         "maxCount": 4,
         "minCount": 4,
@@ -117,26 +122,13 @@
         "weight": 10
       },
       {
-        "type": "minecraft:parrot",
+        "type": "minecraft:cow",
         "maxCount": 4,
-        "minCount": 2,
-        "weight": 80
-      },
-      {
-        "type": "minecraft:panda",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
+        "minCount": 4,
+        "weight": 8
       }
     ],
-    "misc": [
-      {
-        "type": "minecraft:parrot",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 80
-      }
-    ],
+    "misc": [],
     "monster": [
       {
         "type": "minecraft:spider",
@@ -185,12 +177,6 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
-      },
-      {
-        "type": "minecraft:ocelot",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 2
       }
     ],
     "underground_water_creature": [
@@ -204,5 +190,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.95
+  "temperature": 0.7
 }

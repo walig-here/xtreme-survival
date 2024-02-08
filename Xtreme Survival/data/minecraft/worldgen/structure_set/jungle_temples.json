@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 4095,
+    "distance": 20,
+    "salt": 424342838,
+    "spread": 8,
+    "preferred_biomes": [
+        "jungle"
+    ]
+  },
+  "structures": [
+    {
+      "structure": "minecraft:jungle_pyramid",
+      "weight": 1
+    }
+  ]
+}
