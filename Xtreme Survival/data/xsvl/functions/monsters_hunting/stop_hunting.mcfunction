@@ -1,0 +1,1 @@
+execute as @e[type=#hunters,tag=is_hunting,limit=32,sort=random] run tag @s remove is_hunting

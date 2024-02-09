@@ -42,5 +42,8 @@ function xsvl:utils/loop_1m
 # Start 5t loop
 function xsvl:utils/loop_5t
 
+# Start 5s loop
+function xsvl:utils/loop_10s
+
 # Message to the player
 tellraw @a {"text": "XTREME SURVIVAL v0.1", "color": "white"}
