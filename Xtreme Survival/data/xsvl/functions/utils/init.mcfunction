@@ -24,7 +24,7 @@ function xsvl:block_breaking/init
 # Init respawn mechanic
 function xsvl:respawning/init
 
-# Init movementr mechanic
+# Init movement mechanic
 function xsvl:movement/init
 
 # Init player modifiers mechanic
@@ -36,8 +36,11 @@ function xsvl:hunger_mechanic/init
 # Init mob spawning mechanic
 function xsvl:mob_spawning/init
 
-# Start animals behavior ticks
-function xsvl:animals_behavior/schedule_tick
+# Start 1 minute loop
+function xsvl:utils/loop_1m
+
+# Start 5t loop
+function xsvl:utils/loop_5t
 
 # Message to the player
 tellraw @a {"text": "XTREME SURVIVAL v0.1", "color": "white"}

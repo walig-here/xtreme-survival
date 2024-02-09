@@ -9,6 +9,3 @@ scoreboard objectives add is_swimming custom:swim_one_cm
 
 # Init moving on water scoreboard
 scoreboard objectives add is_moving_on_water custom:walk_on_water_one_cm 
-
-# Start hunger ticking
-function xsvl:hunger_mechanic/tick

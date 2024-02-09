@@ -1,3 +1,2 @@
-# Start ticks
-schedule clear xsvl:mob_spawning/schedule_tick
-function xsvl:mob_spawning/schedule_tick
+# Debug message
+tellraw @a[tag=debug_mode] {"text":"[Mob Spawn mechanic]: Initalized mob spawn mechanic.","italic":true,"color":"gray"}

@@ -15,6 +15,3 @@ scoreboard objectives add player_condition dummy
 
 # Debug message
 tellraw @a[tag=debug_mode] {"text":"[Player Modifiers Mechanic]: Initalized player modifiers mechanic.","italic":true,"color":"gray"}
-
-# Start checking players' condition
-function xsvl:player_modifiers/tick
