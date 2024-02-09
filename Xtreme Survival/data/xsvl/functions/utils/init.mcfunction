@@ -36,14 +36,21 @@ function xsvl:hunger_mechanic/init
 # Init mob spawning mechanic
 function xsvl:mob_spawning/init
 
-# Start 1 minute loop
-function xsvl:utils/loop_1m
 
 # Start 5t loop
 function xsvl:utils/loop_5t
 
+# Start 1s loop
+function xsvl:utils/loop_1s
+
 # Start 5s loop
+function xsvl:utils/loop_5s
+
+# Start 10s loop
 function xsvl:utils/loop_10s
+
+# Start 1 minute loop
+function xsvl:utils/loop_1m
 
 # Message to the player
 tellraw @a {"text": "XTREME SURVIVAL v0.1", "color": "white"}

@@ -1,1 +1,1 @@
-execute at @s[nbt={HurtTime:8s}] as @e[type=#animals,distance=..8] run damage @s 0 minecraft:generic by @p
+execute at @s as @e[type=#animals,distance=..12] run function xsvl:animals_behavior/panic
