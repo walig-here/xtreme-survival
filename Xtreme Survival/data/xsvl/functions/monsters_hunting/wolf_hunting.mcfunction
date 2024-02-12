@@ -1,0 +1,1 @@
+damage @s 0 generic by @e[type=#hunted_by_wolfes,distance=..32,limit=1,sort=nearest]

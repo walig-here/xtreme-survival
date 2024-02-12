@@ -39,5 +39,5 @@ execute if block ~-1 ~1 ~1 #leaves run tag @s add can_summon_spider
 
 
 execute as @s[tag=!can_summon_spider] run return 1
-execute at @s run summon cave_spider ~ ~ ~
+summon cave_spider ~ ~ ~
 tag @s remove can_summon_spider
