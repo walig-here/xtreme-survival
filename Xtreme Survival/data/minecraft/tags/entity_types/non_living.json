@@ -1,0 +1,30 @@
+{
+    "values": [
+      "item",
+      "falling_block",
+      "#arrows",
+      "minecart",
+      "tnt_minecart",
+      "chest_minecart",
+      "hopper_minecart",
+      "furnace_minecart",
+      "spawner_minecart",
+      "command_block_minecart",
+      "armor_stand",
+      "area_effect_cloud",
+      "item_frame",
+      "interaction",
+      "glow_item_frame",
+      "wind_charge",
+      "fireball",
+      "firework_rocket",
+      "fishing_bobber",
+      "small_fireball",
+      "trident",
+      "text_display",
+      "painting",
+      "boat",
+      "chest_boat",
+      "block_display"
+    ]
+  }
