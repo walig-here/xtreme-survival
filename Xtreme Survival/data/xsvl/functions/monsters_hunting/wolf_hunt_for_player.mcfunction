@@ -1,4 +1,4 @@
 tag @s add is_hunting
-execute at @s run playsound entity.wolf.growl master @a[distance=..12,limit=1,sort=nearest] ~ ~ ~
-tellraw @a[distance=..12,limit=1,sort=nearest] {"text":"Wolf is hunting for you","color":"red"}
-execute at @s run damage @s 0 generic by @a[distance=..12,limit=1,sort=nearest]
+playsound entity.wolf.growl master @a[distance=..16] ~ ~ ~
+tellraw @p[distance=..16] {"text":"Wolf is hunting for you","color":"red"}
+damage @s 0 generic by @p[distance=..16]
