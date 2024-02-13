@@ -1,0 +1,2 @@
+scoreboard objectives add panic_cooldown dummy
+scoreboard objectives add kick_cooldown dummy

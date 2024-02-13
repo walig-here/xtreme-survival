@@ -1,2 +1,2 @@
-execute at @e[type=!#non_living,type=!#kicking_animals,type=!item,distance=..3,limit=1] run tag @s add kick_performed
+execute at @e[type=!#non_living,type=!#kicking_animals,type=!item,distance=..3,limit=1] run function xsvl:animals_behavior/perform_kick
 execute as @e[type=!#non_living,type=!#kicking_animals,type=!item,distance=..3,limit=1] run function xsvl:animals_behavior/entity_kicked

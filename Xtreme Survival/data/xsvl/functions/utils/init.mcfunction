@@ -36,6 +36,8 @@ function xsvl:hunger_mechanic/init
 # Init mob spawning mechanic
 function xsvl:mob_spawning/init
 
+# Init animal behavior mechanic
+function xsvl:animals_behavior/init
 
 # Start 5t loop
 function xsvl:utils/loop_5t
