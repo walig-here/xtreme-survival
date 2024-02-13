@@ -1,3 +1,4 @@
+execute if predicate xsvl:player_has_night_vission run return 0
 tag @s add gloom
 summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["gloom"],CustomName:'{"text":"Darkness"}'}
 execute at @s run playsound minecraft:ambient.cave master @s

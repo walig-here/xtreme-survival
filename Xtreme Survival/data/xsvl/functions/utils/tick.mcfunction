@@ -19,6 +19,7 @@ execute at @a as @e[type=#kicking_animals,distance=..64,tag=in_panic,tag=!kick_p
 # Gloom
 execute as @e[type=player,gamemode=!creative,tag=!gloom] if predicate xsvl:player_in_darkness run function xsvl:player_modifiers/start_gloom
 execute as @e[type=player,gamemode=!creative,tag=gloom] unless predicate xsvl:player_in_darkness run function xsvl:player_modifiers/end_gloom
+execute as @e[type=player,gamemode=!creative,tag=gloom] if predicate xsvl:player_has_night_vission run function xsvl:player_modifiers/end_gloom
 
 # Movement
 function xsvl:movement/jump_handling_tick
