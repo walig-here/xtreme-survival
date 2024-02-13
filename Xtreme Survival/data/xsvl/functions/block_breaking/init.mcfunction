@@ -28,3 +28,15 @@ scoreboard objectives add blue_bed_broken minecraft.mined:blue_bed
 scoreboard objectives add purple_bed_broken minecraft.mined:purple_bed
 scoreboard objectives add magenta_bed_broken minecraft.mined:magenta_bed
 scoreboard objectives add pink_bed_broken minecraft.mined:pink_bed
+
+# Logs
+scoreboard objectives add oak_log_broken minecraft.mined:oak_log
+scoreboard objectives add spruce_log_broken minecraft.mined:spruce_log
+scoreboard objectives add birch_log_broken minecraft.mined:birch_log
+scoreboard objectives add jungle_log_broken minecraft.mined:jungle_log
+scoreboard objectives add acacia_log_broken minecraft.mined:acacia_log
+scoreboard objectives add dark_oak_log_broken minecraft.mined:dark_oak_log
+scoreboard objectives add mangrove_log_broken minecraft.mined:mangrove_log
+scoreboard objectives add cherry_log_broken minecraft.mined:cherry_log
+scoreboard objectives add crimson_log_broken minecraft.mined:crimson_stem
+scoreboard objectives add warped_log_broken minecraft.mined:warped_stem

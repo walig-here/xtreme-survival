@@ -30,3 +30,15 @@ execute as @s[scores={blue_bed_broken=1}] run function xsvl:block_breaking/block
 execute as @s[scores={purple_bed_broken=1}] run function xsvl:block_breaking/block_handling/purple_bed
 execute as @s[scores={magenta_bed_broken=1}] run function xsvl:block_breaking/block_handling/magenta_bed
 execute as @s[scores={pink_bed_broken=1}] run function xsvl:block_breaking/block_handling/pink_bed
+
+# Logs
+execute as @s[scores={oak_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/oak_log
+execute as @s[scores={spruce_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/spruce_log
+execute as @s[scores={birch_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/birch_log
+execute as @s[scores={jungle_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/jungle_log
+execute as @s[scores={acacia_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/acacia_log
+execute as @s[scores={dark_oak_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/dark_oak_log
+execute as @s[scores={mangrove_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/mangrove_log
+execute as @s[scores={cherry_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/cherry_log
+execute as @s[scores={crimson_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/crimson_stem
+execute as @s[scores={warped_log_broken=1}] at @a run function xsvl:block_breaking/block_handling/warped_stem

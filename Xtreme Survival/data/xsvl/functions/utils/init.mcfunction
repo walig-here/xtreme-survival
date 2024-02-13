@@ -39,6 +39,9 @@ function xsvl:mob_spawning/init
 # Init animal behavior mechanic
 function xsvl:animals_behavior/init
 
+# Init raycast
+function xsvl:raycast/init
+
 # Start 5t loop
 function xsvl:utils/loop_5t
 

@@ -19,5 +19,8 @@ execute at @a as @e[type=#kicking_animals,distance=..64,tag=in_panic] at @s run 
 # Gloom
 execute as @e[type=player,gamemode=!creative] run function xsvl:player_modifiers/gloom_tick
 
+# Raycast
+execute as @a at @s run function xsvl:raycast/init_raycast
+
 # Movement
 function xsvl:movement/jump_handling_tick
