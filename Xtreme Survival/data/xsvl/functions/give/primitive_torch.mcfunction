@@ -1,0 +1,1 @@
+give @p armor_stand{display:{Name:'{"text":"Primitive Torch","italic":false}'},EntityTag:{Silent:1b,Small:1b,NoBasePlate:1b,Health:0.1f,Tags:["torch"],DisabledSlots:4144959,active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:72000,show_particles:0b}]}} 1

@@ -22,5 +22,9 @@ execute as @e[type=player,gamemode=!creative] run function xsvl:player_modifiers
 # Raycast
 execute as @a at @s run function xsvl:raycast/init_raycast
 
+# Torches
+execute at @a as @e[type=armor_stand,tag=torch,distance=..128] run function xsvl:primitive_torches/torch_tick
+execute as @e[type=marker,tag=torch_is_lit] run function xsvl:primitive_torches/check_torches
+
 # Movement
 function xsvl:movement/jump_handling_tick

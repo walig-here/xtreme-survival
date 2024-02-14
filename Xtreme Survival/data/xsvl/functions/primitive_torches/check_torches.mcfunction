@@ -1,0 +1,1 @@
+execute as @s at @s run function xsvl:primitive_torches/torch_is_not_standing

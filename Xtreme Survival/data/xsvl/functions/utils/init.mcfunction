@@ -42,6 +42,9 @@ function xsvl:animals_behavior/init
 # Init raycast
 function xsvl:raycast/init
 
+# Init primitive torches
+function xsvl:primitive_torches/init
+
 # Start 5t loop
 function xsvl:utils/loop_5t
 

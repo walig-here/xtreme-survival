@@ -1,0 +1,1 @@
+scoreboard objectives add torch_fire_timer dummy
