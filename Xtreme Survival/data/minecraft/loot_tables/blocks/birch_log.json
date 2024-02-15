@@ -19,48 +19,8 @@
                   }
                 }
               ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:stick",
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": 2
-                }
-              ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Sawdust\",\"italic\":false}'},CustomModelData:7810037,sawdust:1b}"
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "tag": "minecraft:axes"
-            }
-          }
         }
       ]
     },
