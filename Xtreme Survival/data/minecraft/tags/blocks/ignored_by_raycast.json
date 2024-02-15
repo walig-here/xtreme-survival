@@ -3,7 +3,6 @@
         "air",
         "water",
         "lava",
-        "void_air",
-        "structure_void"
+        "void_air"
     ]
 }
