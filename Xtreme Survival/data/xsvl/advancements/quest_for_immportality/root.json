@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": "Quest for Immortality",
+    "description": "...",
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "player": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

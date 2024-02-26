@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {},
+  "pattern": [
+    
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:soul_torch"
+  }
+}

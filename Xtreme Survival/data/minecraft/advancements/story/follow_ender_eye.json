@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "advancements.story.follow_ender_eye.title"
+    },
+    "description": {
+      "translate": "advancements.story.follow_ender_eye.description"
+    }
+  },
+  "parent": "minecraft:story/enter_the_nether",
+  "criteria": {
+    "in_stronghold": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": true
+}
